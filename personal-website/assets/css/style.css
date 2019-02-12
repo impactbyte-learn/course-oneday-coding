@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+input, button {
+  font: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 55vw;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  text-align: center;
+}
+
+main hr {
+  width: 75%;
+  margin: 4rem auto;
+}
+
+.profile-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  background-color: #eee;
+}
+
+.profile-image img {
+  max-height: 35vh;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.about p {
+  text-align: justify;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(100% / 3);
+  border: 1px solid #ddd;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form input, .form button {
+  width: 100%;
+}
+
+.form input, .form button {
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.form input {
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 2rem;
+}

@@ -10,7 +10,8 @@
 4. [Struktur sebuah halaman HTML](#html_4)
 5. [Memasukkan gambar ke HTML](#html_5)
 6. [Membuka link ke halaman lain](#html_6)
-7. Membuat website pribadi (Demo)
+7. [Membuat form](#html_7)
+8. Membuat website pribadi (Demo)
 
 ### CSS
 
@@ -104,6 +105,22 @@ Kita bisa menggunakan ekstensi VS Code bernama [Live Server](https://marketplace
 #### Penjelasan
 
 - `href` wajib ditulis, karena digunakan untuk meletakkan alamat yang dituju.
+
+
+<a name="html_7" />
+
+## Membuat form
+```html
+<form>
+  <input type="text" placeholder="Full Name" />
+  <input type="email" placeholder="Email" />
+  <button type="submit">Submit</button>
+</form>
+```
+
+#### Penjelasan
+- `type` digunakan untuk menentukan tipe data yang dimasukkan.
+- `placeholder` digunakan untuk memberikan petunjuk kepada pengguna.
 
 # CSS
 

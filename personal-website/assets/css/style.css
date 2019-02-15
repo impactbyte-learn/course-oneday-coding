@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid lightgrey;
 }
 
 main hr {
@@ -30,10 +30,12 @@ main hr {
   align-items: center;
   justify-content: center;
   padding: 4rem 0;
+  background-color: lightgrey;
 }
 
 .profile-image img {
   max-height: 35vh;
+  border-radius: 50%;
 }
 
 .about p {
@@ -51,14 +53,20 @@ main hr {
   border: 1px solid #ddd;
   border-radius: 5px;
   text-align: left;
+  overflow: hidden;
 }
 
 .card img {
   max-width: 100%;
+  min-height: 100%;
 }
 
 .card-body {
   padding: 1.5rem;
+}
+
+.card-body h3 {
+  margin-top: 0;
 }
 
 footer {

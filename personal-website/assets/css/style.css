@@ -1,35 +1,23 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  color: #333;
   line-height: 1.5;
   text-align: center;
 }
 
-.container {
+hr {
+  width: 75%;
+  margin: 65px auto;
+}
+
+
+main .content {
   width: 55vw;
   margin: 0 auto;
 }
 
-header {
-  border-bottom: 1px solid lightgrey;
-}
-
-main hr {
-  width: 75%;
-  margin: 4rem auto;
-}
-
 .profile-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 0;
+  padding: 65px 0;
   background-color: lightgrey;
 }
 
@@ -43,26 +31,25 @@ main hr {
   text-align: justify;
 }
 
-.cards {
+.skills {
   display: flex;
   justify-content: space-between;
 }
 
 .card {
-  width: calc(100% / 3 - 1rem);
+  width: calc(100% / 3 - 15px);
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: left;
   overflow: hidden;
 }
 
 .card img {
-  max-width: 100%;
-  min-height: 100%;
+  width: 100%;
 }
 
 .card-body {
-  padding: 1.5rem;
+  padding: 25px;
 }
 
 .card-body h3 {
@@ -70,9 +57,9 @@ main hr {
 }
 
 footer {
-  padding: 2rem;
+  padding: 30px;
 }
 
 footer a {
-  margin: 0 1rem;
+  margin: 0 20px;
 }

@@ -1,59 +1,51 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.5; /* Optional */
   text-align: center;
 }
 
-hr {
-  width: 75%;
-  margin: 65px auto;
-}
-
-
-main .content {
-  width: 55vw;
-  margin: 0 auto;
-}
-
-.profile-image {
-  padding: 65px 0;
+#profile {
+  padding: 65px;
   background-color: lightgrey;
 }
 
-.profile-image img {
-  max-height: 35vh;
+#profile img {
+  height: 350px;
   border-radius: 50%;
 }
 
-.about p {
-  font-size: 20px;
-  text-align: justify;
+#content {
+  width: 55%;
+  margin: 0 auto;
 }
 
-.skills {
+#skills {
   display: flex;
   justify-content: space-between;
 }
 
 .card {
-  width: calc(100% / 3 - 15px);
+  width: 30%;
   border: 1px solid #ddd;
-  border-radius: 10px;
-  text-align: left;
-  overflow: hidden;
 }
 
 .card img {
   width: 100%;
 }
 
-.card-body {
-  padding: 25px;
+.card div {
+  padding: 20px;
 }
 
+/* Optional */
 .card-body h3 {
   margin-top: 0;
+}
+/* Optional */
+
+hr {
+  margin: 65px;
 }
 
 footer {
